@@ -164,3 +164,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Video source: <https://www.youtube.com/watch?v=kmy_YNhl0mw&t=174s>
+Packpal Backend: https://github.com/ultrakhaicraft/Packpal-API-Archived

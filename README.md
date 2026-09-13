@@ -7,7 +7,7 @@ A modern React Native application for package storage management, connecting sto
 - 🔐 **Custom Authentication**: Secure user authentication with JWT tokens
 - 🗺️ **Storage Location Maps**: Google Maps integration for storage locations
 - 📦 **Storage Management**: Browse and book storage spaces
-- 💳 **Payment Integration**: Secure payments with VNPAY
+- 💳 **Payment Integration**: Secure payments with PayOS
 - ⭐ **Rating System**: Rate storage providers and experiences
 - 📱 **Role-based Access**: Separate flows for Renters and Keepers
 - 🎨 **Modern UI**: Beautiful interface with NativeWind (Tailwind CSS)
@@ -20,7 +20,7 @@ A modern React Native application for package storage management, connecting sto
 - **Authentication**: Custom JWT (integrated with PackPals .NET backend)
 - **Backend**: ASP.NET Core 8.0 with Clean Architecture
 - **Database**: SQL Server
-- **Payment**: VNPAY
+- **Payment**: PayOS
 - **Maps**: React Native Maps + Google Maps API
 - **State Management**: Zustand
 - **Styling**: NativeWind (Tailwind CSS for React Native)
@@ -34,7 +34,7 @@ A modern React Native application for package storage management, connecting sto
 - iOS Simulator or Android Emulator
 - Google Maps API key
 - PackPals .NET backend running
-- VNPAY merchant account (for payments)
+- PayOS merchant account (for payments)
 
 ### Installation
 
@@ -57,7 +57,7 @@ Create a `.env` file in the root directory and add your API keys:
 ```env
 EXPO_PUBLIC_GOOGLE_API_KEY=your_google_maps_key
 EXPO_PUBLIC_BACKEND_URL=https://localhost:7056/api
-EXPO_PUBLIC_VNPAY_MERCHANT_ID=your_vnpay_merchant_id
+EXPO_PUBLIC_PayOS_MERCHANT_ID=your_payos_merchant_id
 ```
 
 4. Start the development server:
@@ -140,7 +140,7 @@ PackPals connects package senders (Renters) with storage providers (Keepers) thr
 1. Clone and run the PackPals .NET backend
 2. Configure database connection
 3. Set up authentication JWT secrets
-4. Configure VNPAY payment integration
+4. Configure PayOS payment integration
 
 ## 🤝 Contributing
 
@@ -158,7 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with [Expo](https://expo.dev/)
 - UI inspired by modern storage and logistics apps
-- Payment processing powered by VNPAY
+- Payment processing powered by PayOS (Used to be VNPay in the previous design)
 - Maps integration with Google Maps Platform
 
 ---
